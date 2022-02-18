@@ -1,13 +1,12 @@
 <?php
 
 $file = fopen("test.txt", "a+");
-// echo fread($file, 20);
-fwrite($file, "\n");
-fwrite($file, 'Tuts+ is a great online resource to learn skills you want!');
-fwrite($file, "\n");
-fwrite($file, 'Visit tutsplus.com to know more!');
-fclose($file);
-?>
+echo fread($file, 20);
+// fwrite($file, "\n");
+// fwrite($file, 'Tuts+ is a great online resource to learn skills you want!');
+// fwrite($file, "\n");
+// fwrite($file, 'Visit tutsplus.com to know more!');
+// fclose($file);
 
 
 ?>
