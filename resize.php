@@ -16,7 +16,7 @@ $thumb = imagecreatetruecolor($newwidth, $newheight);
 $source = imagecreatefromjpeg($filename);
 
 // Resize
-imagecopyresized($thumb, $source, 50, 70, 220, 200, $newwidth, $newheight, $width, $height);
+imagecopyresized($thumb, $source, 50, 70, 200, 200, $newwidth, $newheight, $width, $height);
 
 // Output
 imagejpeg($thumb);
